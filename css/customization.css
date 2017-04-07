@@ -1,3 +1,19 @@
-.container {
-    color: cadetblue;
+
+
+.headline {
+    text-align: center
+}
+
+
+
+.main {
+    border: 1px solid black;
+}
+
+.sidebar {
+    border: 1px solid blue
+}
+
+.main, .sidebar{
+    height: 600px;
 }
