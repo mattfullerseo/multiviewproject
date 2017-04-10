@@ -1,6 +1,22 @@
-.container-fluid {
+
+
+
+.container {
     background: lightskyblue;
     max-width: 1425px;
+}
+
+nav  {
+    top:0;
+    right:0;
+
+}
+
+nav img {
+    height: 75px;
+    width: 75px;
+    float: right;
+    
 }
 
 h1, h2 {
