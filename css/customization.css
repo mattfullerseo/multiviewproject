@@ -1,4 +1,13 @@
 .container-fluid {
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+
+.container-fluid {
     background: lightskyblue;
     max-width: 1425px;
 }
