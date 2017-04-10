@@ -4,8 +4,11 @@
 }
 
 .btn-info {
-    background: lightskyblue;
+    background: rgba(1E, 57, E0, 1.0);
+    border: 1px solid transparent;
     color: black;
+    font-weight: bold;
+    
 }
 
 .well {
@@ -22,6 +25,7 @@ h1 {
     display: inline-block;
     border-radius: 12px;
     padding: 4px;
+
 }
 
 h2, h1 span {
@@ -29,7 +33,7 @@ h2, h1 span {
 }
 
 body {
-    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5))  ,url("../assets/droplets.jpg");
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)) ,url("../assets/droplets.jpg");
     background-size: cover;
 }
 
@@ -37,3 +41,9 @@ p {
     color: black;
 }
 
+nav img {
+    float: right;
+    width: 15%;
+    height: 15%;
+    padding: 20px;
+}
